@@ -1,0 +1,32 @@
+*Variables: 
+
+Para entender las variables es como una cajita en donde el programador guarda información que luego le va servir. Es por ello que le pone un nombre a traves de la palabra reservada var, let o Const. A su ves dentro de la cajita una ves que le ponemos nombre le podemos asignar un valor a traves de el signo igual. 
+por ejemplo var nombre = 'Pedro'; 
+
+*Strings: 
+
+A su ves el programador necesita trabajar con datos que se clasifican según el tipo de dato. Los Strings son palabras de las que se vale quien programa para asignar un contenido/valor a la variable. Tomando el ejemplo recien visto, var nombre = 'Pedro'; aqui Pedro es una palabra/string, un tipo de dato que siempre va entre comillas.
+
+*Funciones: 
+
+Ademas en programación contramos con otro instrumento que nos sirve para tener que escribir menos y no repetirnos en lo que escribimos, que además nos hace ahorrar tiempo, se llaman Funciones. 
+Las funciones son un objeto al que podemos llamar por su nombre junto a un parentesis y luego un par de llaves {}, dentro de las cuales el programador pone lo que quiere que pase una ves que llamamos/invocamos a la funcion. Ejemplo: 
+function tuNombreEs(nombre) {
+    console.log( 'Hola' + nombre);
+} // En este ejemplo vemos una función de nombre tuNombreEs, que al llamarla esperará (según lo escrito entre llaves), que el usuario ponga un valor del tipo string, tu tuNombreEs('Pedro'); entonces la compu devolverá: Hola Pedro. Console.log hay que entenderlo como la orden imprimir/mostrar (en la pantalla), en este caso Hola y el valor escrito por el usuario. Vemos aquí también que el programador se vale de las funciones para hacer algo útil con las variables, por lo son una herramienta muy poderosa. 
+
+*Controlador de Flujo IF:
+
+Siguiendo el tema de las funciones el programador puede necesitar verificar si una condición se cumple o no para dar una respuesta u otra según el caso. Ejemplo si (es igual a decir if) tienes mas de 18 años puedes manejar sino no, permitiendo que la compu de una respuesta u otra según se cumpa o no la condición.
+
+function puedoManejar(edad){
+    if(edad >= 18) {
+        return 'puede manejar';
+    }
+    return 'no puede manejar'
+}// aqui vemos que la palabra clave return significa devolve/ responde puede o no puede manejar en función de la edad que ingrese el usuario;
+
+Valores Booleanos True False
+
+Es importante ver que en el ejemplo de arriba buscamos ver si en función de un valor/ edad(número) se cumple o no se cumple, aquí entramos en lo que llamamos valores Booleanos, es decir es verdad que 16 es mayor a 18?, no es falso (false) entonces no puede manejar. Es verdad que 23 es mayor a 18, si es verdad(true), entonces puede manejar. De esta manera el programador puede junto a condicionantes como if que su programa se detenga o continue su ejecución, evaluando la condición de los valores recibidos.
+
