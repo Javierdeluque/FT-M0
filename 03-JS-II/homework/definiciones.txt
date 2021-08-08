@@ -1,0 +1,12 @@
+For: dentro de las herramientas que usan los programadores, están los bucles que le permiten que un código/programa se repita (bucle), hasta que se dé una condición buscada. Es aquí que hablamos del buche For que junto a una variable la incrementa hasta que la condición fijada por el programador deja de ser cierta. Ejemplo: 
+for (var i = 0; i <= 10; i++ ){
+    console.log(i);
+} // en este ejemplo la varible i le pedimos que cuente de 0 a 10 es decir  0 es menor igual a 10 true, 1 es menor igual a 10 true... y asi el código se repite hasta que esta condición no se cumpla 11 es menor a 10 false, el programa corta en 10.
+
+&& (y // and): El programador puede necesitar comparar si dos hechos son verdad/ true o no y para ello usa lo que llamamos operadores lógicos.El operador y se usa para comparar dos hechos, por ejemplo: "una manzana es una fruta y(&&) una papa es una fruta?", falso por que la papa no es una fruta. Para que sea verdadero ambos hechos deben ser verdad true. 
+
+|| (Ó // Or): siguiendo el razonamiento anterior este operador lógico le es suficiente que uno de los hechos/argumentos sea verdadero por más que el otro sea falso: 
+"una manzana es una fruta ó(||) una papa es una fruta?" True 
+
+(!) No/Not: Por último este elemento este operador lógico devuelve lo contrario al argumento pasado. Sería como decir por ejemplo "no es verdad": (!no es verdad que ("una manzana sea una fruta")); false 
+(!(1 === 1)); false.
